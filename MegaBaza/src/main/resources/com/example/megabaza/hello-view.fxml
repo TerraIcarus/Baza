@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="631.0" style="-fx-background-color: #FFFCC9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="priceListB" contentDisplay="CENTER" layoutX="192.0" layoutY="166.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #fbd504;" text="Список заказов">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="customersB" contentDisplay="CENTER" layoutX="192.0" layoutY="203.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #faab1a;" text="Покупатели">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="uslugiB" contentDisplay="CENTER" layoutX="192.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #e28b00;" text="Список услуг">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="192.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #cc7722;" text="Список материалов">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
